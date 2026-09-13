@@ -64,7 +64,7 @@ const tryoutCommand =
     new SlashCommandBuilder()
         .setName('tryout')
         .setDescription(
-            'AUREON Tryout Hub'
+            'Black Dragons Tryout Hub'
         )
 
         /* =====================================================
@@ -76,7 +76,7 @@ const tryoutCommand =
                 subcommand
                     .setName('create')
                     .setDescription(
-                        'Create an AUREON tryout lobby'
+                        'Create an Black Dragons tryout lobby'
                     )
         )
 
@@ -115,7 +115,7 @@ const tryoutCommand =
                 subcommand
                     .setName('leaderboard')
                     .setDescription(
-                        'Show the AUREON player leaderboard'
+                        'Show the Black Dragons player leaderboard'
                     )
         )
 
@@ -207,7 +207,7 @@ const tryoutCommand =
                 group
                     .setName('scrim')
                     .setDescription(
-                        'AUREON scrim controls'
+                        'Black Dragons scrim controls'
                     )
 
                     /* =========================================
@@ -219,7 +219,7 @@ const tryoutCommand =
                             subcommand
                                 .setName('create')
                                 .setDescription(
-                                    'Create an AUREON scrim'
+                                    'Create an Black Dragons scrim'
                                 )
                     )
 
@@ -245,7 +245,7 @@ const scrimCommand =
     new SlashCommandBuilder()
         .setName('scrim')
         .setDescription(
-            'AUREON scrim result tools'
+            'Black Dragons scrim result tools'
         )
 
         /* =====================================================
@@ -292,7 +292,7 @@ const rest =
         );
 
         console.log(
-            '⏳ Registering AUREON commands...'
+            '⏳ Registering Black Dragons commands...'
         );
 
         console.log(
@@ -363,7 +363,7 @@ const rest =
         );
 
         console.log(
-            '✅ AUREON COMMANDS REGISTERED'
+            '✅ Black Dragons COMMANDS REGISTERED'
         );
 
         console.log(
@@ -428,7 +428,7 @@ const rest =
         );
 
         console.error(
-            '❌ FAILED TO REGISTER AUREON COMMANDS'
+            '❌ FAILED TO REGISTER Black Dragons COMMANDS'
         );
 
         console.error(
