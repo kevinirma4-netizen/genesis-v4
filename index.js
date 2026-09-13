@@ -19,7 +19,7 @@ const {
 } = require('discord.js');
 
 /* =========================================================
-   AUREON V18 • FIXED
+   Black Dragons V18 • FIXED
 ========================================================= */
 
 const client = new Client({
@@ -442,7 +442,7 @@ function updatePresence() {
             activities: [
                 {
                     name:
-                        `AUREON • ${tryouts.size}T / ${scrims.size}S`,
+                        `Black Dragons • ${tryouts.size}T / ${scrims.size}S`,
 
                     type:
                         ActivityType.Watching
@@ -1710,7 +1710,7 @@ async function pingScrimRole(
                     roleId
                 )}
 
-✦ **AUREON ${scrim.type.toUpperCase()} SCRIM OPEN**
+✦ **Black Dragons ${scrim.type.toUpperCase()} SCRIM OPEN**
 
 Choose your position below.`,
 
@@ -1767,7 +1767,7 @@ async function pingSelectedPlayers(
 
 ━━━━━━━━━━━━━━━━━━━━━━━━
 
-✦ **AUREON • SELECTED LINEUP** ✦
+✦ **Black Dragons • SELECTED LINEUP** ✦
 
 ${lineup}
 
@@ -2033,7 +2033,7 @@ function notReadyModal(
             `notready_modal:${messageId}`
         )
         .setTitle(
-            'AUREON • NOT READY'
+            'Black Dragons • NOT READY'
         )
         .addComponents(
             new ActionRowBuilder()
@@ -2171,8 +2171,8 @@ function resultModal(
             .setTitle(
                 type ===
                     'gk'
-                    ? 'AUREON • GK RESULT'
-                    : 'AUREON • STRIKER RESULT'
+                    ? 'Black Dragons • GK RESULT'
+                    : 'Black Dragons • STRIKER RESULT'
             );
 
     if (
@@ -2461,7 +2461,7 @@ function resultEmbed(
 
     embed.setFooter({
         text:
-            '✦ OFFICIAL AUREON TRYOUT RESULT ✦'
+            '✦ OFFICIAL Black Dragons TRYOUT RESULT ✦'
     });
 
     return setBanner(
@@ -2481,7 +2481,7 @@ function clubModal(
             `scrim_clubs:${sessionId}`
         )
         .setTitle(
-            'AUREON • CLUB NAMES'
+            'Black Dragons • CLUB NAMES'
         )
         .addComponents(
             new ActionRowBuilder()
@@ -2548,7 +2548,7 @@ function roundModal(
             `scrim_round:${session.id}:${round}`
         )
         .setTitle(
-            `AUREON • ROUND ${round}`
+            `Black Dragons • ROUND ${round}`
         )
         .addComponents(
             new ActionRowBuilder()
@@ -2619,7 +2619,7 @@ function mvpModal(
             `scrim_mvp:${sessionId}`
         )
         .setTitle(
-            'AUREON • OVERALL MVP'
+            'Black Dragons • OVERALL MVP'
         )
         .addComponents(
             new ActionRowBuilder()
@@ -4037,7 +4037,7 @@ const amount =
                                 'announcement_modal'
                             )
                             .setTitle(
-                                'AUREON • ANNOUNCEMENT'
+                                'Black Dragons • ANNOUNCEMENT'
                             )
                             .addComponents(
                                 new ActionRowBuilder()
@@ -5599,7 +5599,7 @@ const amount =
                     return interaction.showModal(
                         serverLinkModal(
                             `scrim_server_link:${messageId}`,
-                            'AUREON • SCRIM SERVER LINK',
+                            'Black Dragons • SCRIM SERVER LINK',
                             scrim.serverLink
                         )
                     );
@@ -6011,7 +6011,7 @@ const amount =
                     return interaction.showModal(
                         serverLinkModal(
                             `tryout_server_link:${messageId}`,
-                            'AUREON • TRYOUT SERVER LINK',
+                            'Black Dragons • TRYOUT SERVER LINK',
                             lobby.serverLink
                         )
                     );
@@ -6613,7 +6613,7 @@ const amount =
 
                     const result = {
                         id:
-                            `AUREON-${Date.now()}`,
+                            `Black Dragons-${Date.now()}`,
 
                         hostId:
                             session.hostId,
@@ -7017,7 +7017,7 @@ client.once(
         );
 
         console.log(
-            '🚀 AUREON BOT V18 ONLINE'
+            '🚀 Black Dragons BOT V18 ONLINE'
         );
 
         console.log(
@@ -7099,7 +7099,7 @@ process.on(
 );
 
 console.log(
-    '🚀 Starting AUREON V18...'
+    '🚀 Starting Black Dragons V18...'
 );
 
 client.login(
